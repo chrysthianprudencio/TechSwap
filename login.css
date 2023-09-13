@@ -16,7 +16,7 @@ body {
 }
 
 
-.logo svg {
+.logo, img {
     width: 70px;
     height: 70px;
     display: flex;
@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-    color: #BF5A0C;
+    color: var(--orange);
     font-size: 28px;
     letter-spacing: 1.40px;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ h1 {
 .username {
     font-size: 17px;
     font-weight: 700;
-    color: #4C3737;
+    color: var(--gray);
     position: relative;
     left: 27px;
     top: 85px;
@@ -47,7 +47,7 @@ h1 {
 .password {
     font-size: 17px;
     font-weight: 700;
-    color: #4C3737;
+    color: var(--gray);
     position: relative;
     left: 27px;
     top: 185px;
@@ -61,7 +61,7 @@ h1 {
     margin: auto;
     position: relative;
     top: 120px;
-    color: #4C3737;
+    color: var(--gray);
 
 }
 
@@ -72,12 +72,12 @@ h1 {
     margin: auto;
     position: relative;
     top: 220px;
-    color: #4C3737;
+    color: var(--gray);
 }
 
 .login-button {
     
-    background: #1A6AC0;
+    background: var(--blue);
     width: 320px;
     height: 45px;
     margin: auto;
@@ -85,7 +85,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--white);
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.90px;
@@ -96,5 +96,5 @@ h1 {
 }
 
 .login-button:hover {
-    background: #155095; 
+    background: var(--blue);
 }
