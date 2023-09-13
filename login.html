@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+   <div class="container">
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58" fill="none">
+                <g filter="url(#filter0_d_148_51)">
+                  <circle cx="29" cy="25" r="24.5" stroke="#225F3C" shape-rendering="crispEdges"/>
+                </g>
+                <defs>
+                  <filter id="filter0_d_148_51" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="2"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_148_51"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_148_51" result="shape"/>
+                  </filter>
+                </defs>
+              </svg>
+        </div>
+        <h1>Projeto Integrador</h1>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username" class="username">Nome</label>
+                <div class="horizontal-line-name" data-value=""></div>
+            <div class="forma-group">
+                <label for="password" class="password">Senha</label>
+                <div class="horizontal-line-password" data-value=""></div>
+            </div>
+            <div class="login-button">Login</div>
+            </div>
+        </form>
+    </div>
+    <script src="/login.js"></script>
+</body>
+</html>
