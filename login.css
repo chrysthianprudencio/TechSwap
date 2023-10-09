@@ -75,7 +75,7 @@ h1 {
     color: var(--gray);
 }
 
-.login-button {
+.login-button a {
     
     background: var(--blue);
     width: 320px;
@@ -89,12 +89,13 @@ h1 {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.90px;
+    text-decoration: none;
     cursor: pointer;
     position: relative;
     top: 320px;
 
 }
 
-.login-button:hover {
-    background: var(--blue);
+.login-button a:hover {
+    background: var(--light-blue);
 }
